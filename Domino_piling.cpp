@@ -1,16 +1,14 @@
 #include <iostream>
+
 using namespace std;
- 
-int main (){
-    int N,M;
- 
-    cin >> N,
-    cin >> M;
-    int area = N * M;
-    int domino;
-    domino = area / 2 ;
- 
-    cout << domino << endl;
- 
+
+int main()
+{
+    int x,y;
+    cin>>x>>y;
+    
+    cout << (x*y)/2;
+
     return 0;
+
 }
